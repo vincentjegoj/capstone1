@@ -25,7 +25,7 @@
 	<section id="landing">
 
 			<!-- Navbar -->
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <a class="navbar-brand" href="#">Hello, World!</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -51,41 +51,16 @@
 </nav>
 
 
-		<div class="container-fluid text-center">
+		<div id="top" class="container-fluid text-center p-3">
+			<div>
+				<img src="images/prof pic.jpg" width="300" class="rounded-circle pt-5 pt-md-5 pt-xl-5"/>
+			</div>
 		  <h4 id="AboutMe">About Me</h4>
-		   <p>
+		   <p class="px-5">
                 Hi, I'm Vincent Jego Jontilano: aspiring web developer, avid sport's fan, tinkerer, and technologically inquisitive.  
                 
-                I'm always open to new opportunities and collaborations. Feel free to reach out to me at vincentjegoj@gmail.com or connect with me on Facebook, LinkedIn, Twitter, Gitlab, or Github.
-            </p>
-
-		  <h4 id="Contacts">Contacts</h4>
-		  <p>
-		  	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</p>
-
-		  <h4 id="Projects">Projects</h4>
-		  <p>
-		  	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</p>
-
-
-		
-
-
-
-			
-
-
-
+                I'm always open to new opportunities and collaborations. Feel free to reach out to me at vincentjegoj@gmail.com or connect with me on Facebook, LinkedIn, Twitter, Gitlab, or Github.  
+        </p>
 
 		</section>
 					<!-- End of landing section -->
@@ -93,21 +68,78 @@
 					<!-- projects sections -->
 
 
-		<section id="projects">
+		<section id="projects" class="text-center">
+			<h4 id="Projects">My Projects</h4>
+			<div class="d-lg-flex justify-content-center p-md-5 text-white">
+						
+						<!-- HTML Card -->
+						<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+						  <img src="https://3.bp.blogspot.com/-7x5c_f1yzsQ/XHv9FZKHrEI/AAAAAAAADrE/4iGl9Lm6K2odX4SdWbU_RN6gZesx4IaGACEwYBhgL/s1600/html.jpg" class="card-img-top" alt="...">
+						  <div class="card-body">
+						    <h5 class="card-title mt-3">HTML</h5>
+						    <p class="card-subtitle text-muted mb-2">Programming Basics</p>
+						    <p class="card-text">
+						    	The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the meaning and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</p> 
+						    	<a href="./project links/html.html" class="card-link">Link to the Project</a>
+						  </div>
+						</div>
 
-		
-		</section>
+						<!-- Bootstrap Card -->
+						<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+						  <img src="https://v4-alpha.getbootstrap.com/assets/brand/bootstrap-social.png" class="card-img-top" alt="...">
+						  <div class="card-body">
+						    <h5 class="card-title mt-3">Boostrap</h5>
+						    <p class="card-subtitle text-muted mb-2">Rapid Prototyping</p>
+						    <p class="card-text">
+						    	Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p> 
+						    	<a href="./project links/bootstrap.html" class="card-link">Link to the Project</a>
+						  </div>
+						</div>
+					</div>
+			
+        </section>
 
 					<!-- End of projects section -->
 
 
 
-					<!-- tools section -->
 
-		<section id="tools">
+					<!-- contacts section -->
+
+		<section id="contacts" class="container-fluid text-center text-align">
+			<h4 id="Contacts">Contact Information</h4>
+		  <div id="contactinfo" class="d-flex flex-column">
+          <div id="html" class="d-flex justify-content-center">
+          	<a href="https://www.facebook.com/vincentjego.jontilano/">
+              <img width="80" height="80" src="images/fb logo.webp"/>
+              </a>
+              <a href="https://www.linkedin.com/in/vincent-jego-jontilano/">
+              <img width="80" height="80" src="images/Linkedin-logo-png.png"/>
+              </a>
+              <a href="https://twitter.com/Ontilano">
+              <img width="80" height="80" src="images/x.png"/>
+              </a>
+              <a href="https://gitlab.com/vincentjegoj">
+              <img width="100" height="100" src="images/logo-gitlab-ci-cd.png"/>
+              </a>
+              <a href="https://github.com/vincentjegoj">
+              <img width="150" height="80" height="100" src="images/GitHub-Logo.png"/>
+              </a>
+          </div>
+
+		</section>
+					<!-- End of contacts section -->
+
+
+		  
+
+
+				<!-- tools section -->
+
+		<section id="tools" class="container-fluid text-center">
 			
 
-		<h4 class="text-center">Core Tools</h4>
+		<h4 id="Tools">Core Tools</h4>
       <div id="core-tools" class="d-flex flex-column">
           <div id="html" class="d-flex justify-content-center">
               <img width="150" src="images/logo-html5.png"/>
@@ -143,22 +175,12 @@
 					<!-- End of tools section -->
 
 
-
-
-					<!-- contacts section -->
-
-		<section id="contacts">
-			
-
-		</section>
-					<!-- End of contacts section -->
-
-
-
-
-		<!-- Footer -->
-
-
+<!-- Footer -->
+        <footer class="d-flex bg-dark text-white p-3 gap-3 justify-content-center">
+            <div>
+            	<a href="#top">Back to Top</a>         
+            </div>
+        </footer>
 
 
 		<!-- BS JS Link -->
